@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, nav, aside, main, footer, .views, .purchase {
+    border: 1px solid black;
+}
+
+.header {
+    text-transform: uppercase;
+}
+
+.main-wrapper {
+    display: flex;
+}
+
+nav {
+    width: 100%;
+    text-transform: uppercase;
+}
+
+.sidebar {
+    width: 30%;
+    height: 100vh;
+    text-transform: uppercase;
+}
+
+main {
+    width: 70%;
+    height: 100vh;
+    text-transform: uppercase;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+.views {
+    width: 20%;
+}
+
+.views > h4 {
+    margin-bottom: 40px;
+    background: #ccc;
+}
+
+.purchase {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.purchase > h4 {
+    width: 100%;
+    background: #ccc;
+}
+
+.clicked {
+    display: none;
+}
